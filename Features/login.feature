@@ -8,8 +8,8 @@ Feature:Login Functionality
     Then I should be logged in
   Examples:
     |email                        |password        |
-    |***************              |Test@123        |
-    |***************              |Test@123        |
+    |***************              |********        |
+    |***************              |********        |
 
   @login
   Scenario: Login with Invalid Creds
